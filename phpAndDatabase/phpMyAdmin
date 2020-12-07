@@ -1,0 +1,4 @@
+$server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "clirofc82mncomex";
+$dbpassword = "oliv570vcjycahnz";
+$dbname = "pokmu5ifhldpc02f";

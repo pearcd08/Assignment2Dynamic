@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bfd7e821-a43a-40c8-bd9b-f48b9450461f" name="https://petshopdavidpearce.herokuapp.com/" url="https://petshopdavidpearce.herokuapp.com/">
+        <fileTransfer accessType="LOCAL" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

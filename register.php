@@ -8,10 +8,10 @@ $phone = $_POST["phone"];
 
 
 //1. connect to database
-$server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dbusername = "t8kmpw42fmp1smpt";
-$dbpassword = "fdavedw769oxw5pd";
-$dbname = "k2nfay1osz1i59kc";
+$server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "clirofc82mncomex";
+$dbpassword = "oliv570vcjycahnz";
+$dbname = "pokmu5ifhldpc02f";
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
@@ -24,6 +24,6 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 if (mysqli_query($conn, $sql)) {
     echo "data has been inserted";
 }else{
-    echo "<a href='Homepage.php'>Home</a>";
+    echo "<a href='StaticWebsite/Homepage.html'>Home</a>";
 }
 ;

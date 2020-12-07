@@ -1,9 +1,9 @@
 <?php
 //1. Database credentials
-$server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dbusername = "t8kmpw42fmp1smpt";
-$dbpassword = "fdavedw769oxw5pd";
-$dbname = "k2nfay1osz1i59kc";
+$server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$dbusername = "clirofc82mncomex";
+$dbpassword = "oliv570vcjycahnz";
+$dbname = "pokmu5ifhldpc02f";
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
