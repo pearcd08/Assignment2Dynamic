@@ -1,5 +1,5 @@
 <ul>
-    <li><a href="StaticWebsite/Homepage.html" </li>
-    <li><a href="aboutus.php"</li>
-    <li><a href="products.php"</li>
+    <li><a href="index.php" </li>
+    <li><a href="aboutUs.php"</li>
+    <li><a href="Products.php"</li>
 </ul>

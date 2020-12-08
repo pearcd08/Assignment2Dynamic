@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpAndDatabase/firstDBConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bird.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/page1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/page2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/page3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/page4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/page5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bird.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaticWebsite/Bird.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaticWebsite/Cat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dog.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaticWebsite/Dog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fish.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaticWebsite/Fish.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/StaticWebsite/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginform.html" beforeDir="false" afterPath="$PROJECT_DIR$/loginform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpAndDatabase/firstDBConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpAndDatabase/firstDBConnection.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +39,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/pearcd08/Assignment2Dynamic" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1jSOD4Ry8RXgnT5JQmJQzDlNu7R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +59,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -56,6 +67,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dpear\Downloads\Assignment2\" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dpear\Downloads\Assignment2\StaticWebsite" />
       <recent name="C:\Users\dpear\Downloads\Assignment2\phpAndDatabase" />
@@ -97,7 +111,7 @@
       <updated>1603793903822</updated>
       <workItem from="1603793904863" duration="29263000" />
       <workItem from="1607264414013" duration="3764000" />
-      <workItem from="1607268810900" duration="10061000" />
+      <workItem from="1607268810900" duration="19565000" />
     </task>
     <servers />
   </component>

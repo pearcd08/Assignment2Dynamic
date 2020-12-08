@@ -20,7 +20,7 @@ $sql = "select * from users";
 // execute query
 $result = mysqli_query($conn, $sql);
 
-//show result
+//show result of all ID numbers
 while ($row = $result->fetch_assoc()) {
-    echo $row["id"];
+    echo $row["firstname"];
 }
