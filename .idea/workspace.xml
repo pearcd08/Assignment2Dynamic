@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bird.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homepage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/include/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/page5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loginform.html" beforeDir="false" afterPath="$PROJECT_DIR$/include/loginform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/include/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +75,7 @@
       <recent name="C:\Users\dpear\Downloads\Assignment2\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dpear\Downloads\Assignment2\include" />
       <recent name="C:\Users\dpear\Downloads\Assignment2\StaticWebsite" />
       <recent name="C:\Users\dpear\Downloads\Assignment2\phpAndDatabase" />
     </key>
@@ -97,7 +116,7 @@
       <updated>1603793903822</updated>
       <workItem from="1603793904863" duration="29263000" />
       <workItem from="1607264414013" duration="3764000" />
-      <workItem from="1607268810900" duration="20669000" />
+      <workItem from="1607268810900" duration="21537000" />
     </task>
     <servers />
   </component>

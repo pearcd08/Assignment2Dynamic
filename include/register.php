@@ -24,6 +24,6 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 if (mysqli_query($conn, $sql)) {
     echo "data has been inserted";
 }else{
-    echo "<a href='StaticWebsite/Homepage.html'>Home</a>";
+    echo "<a href='../StaticWebsite/Homepage.html'>Home</a>";
 }
 ;
