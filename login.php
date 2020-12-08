@@ -55,7 +55,7 @@ if (!isset($_SESSION["userID"])){
 
 </form>
 <?php
-}else{
+} else{
 }
     ?>
     <a href="logout.php">logout<a/>
