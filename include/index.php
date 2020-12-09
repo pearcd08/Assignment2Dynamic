@@ -1,37 +1,39 @@
-<?php
-
-//set values to session variables
-//$_SESSION["username"] = "lei";
-//$_SESSION["password"] = "song";
-//$_SESSION["color"] = "red";
-//$_SESSION["Address"] = "139 Carrington Road";
-if (isset($_POST["message"])){
-    echo "<p>I have a post message in this page</p>";
-    //start a session
-    @session_start();
-    //set session variable
-    $_SESSION["message"] = $_POST["message"];
-}else{
-    echo "<p>Please post a message to me</p>";
-}
-?>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Session Exercise</title>
-</head>
+    <meta charset="UTF-8">
+    <title>Petz Homepage</title>
+    <link rel = "stylesheet" type = "text/css" href = "../css/stylesheet.css" >
+    <script src="../js/script.js"></script>
+  </head>
+
+
 
 <body>
-<ul>
-    <li><a href="page1.php">Page 1</a> </li>
-    <li><a href="page2.php">Page 2</a> </li>
-    <li><a href="page3.php">Page 3</a> </li>
-    <li><a href="page4.php">Page 4</a> </li>
-    <li><a href="page5.php">Page 5</a> </li>
-</ul>
 
-<form action="<?php $_SERVER["PHP_SELF"]; ?>"  method="post">
-    <input name="message" type="text" placeholder="message here">
-    <input type="submit" value="Post">
-</form>
+<div id = "header">
+    <img src = "../images/Header1.jpg.jpg">
+</div>
+
+    <div>
+        <img class="rotate_01" src="../images/yarn.png">
+
+    </div>
+
+
+    <div id = "menu">
+        <ul>
+            <li><a href="Dog.html">Dog<</a></li>
+            <li><a href="Cat.html">Cat</a></li>
+            <li><a href="Bird.html">Bird</a></li>
+            <li><a href="Fish.html">Fish</a></li>
+        </ul>
+        <?php include "login.php";
+        ?>
+    </div>
 </body>
+<footer>
+    <p>
+        Petz Food Company, Auckland, New Zealand
+    </p></footer>
 </html>
