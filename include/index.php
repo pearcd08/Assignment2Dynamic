@@ -28,6 +28,8 @@
             <li><a href="Bird.html">Bird</a></li>
             <li><a href="Fish.html">Fish</a></li>
         </ul>
+        <?php include "menu.php";
+        ?>
         <?php include "login.php";
         ?>
     </div>
