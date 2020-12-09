@@ -35,9 +35,9 @@ if ($result->num_rows == 1) {
     while ($row = $result->fetch_assoc()) {
         echo $row["firstname"];
 
-        @session_start()
+        @session_start();
         $_SESSION["userID"] = $row["id"];
-        $_SESSION["firstname"] = $row["firstname";]
+        $_SESSION["firstname"] = $row["firstname"];
     }
 } else {
     echo "wrong username or password";
