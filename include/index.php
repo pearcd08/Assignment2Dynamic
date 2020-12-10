@@ -10,17 +10,6 @@
 
 
 <body>
-
-<div id = "header">
-    <img src = "../images/Header1.jpg">
-</div>
-
-    <div>
-        <img class="rotate_01" src="../images/yarn.png">
-
-    </div>
-
-
     <div id = "menu">
         <?php include "login.php"; ?>
         <?php include "menu.php"; ?>
