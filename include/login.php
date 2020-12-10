@@ -3,7 +3,6 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
-    //1. create a database connection
     $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "clirofc82mncomex";
     $dbpassword = "oliv570vcjycahnz";
@@ -11,23 +10,19 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-    //2. create a query
+
     $sql = "select * from users 
             where username = '$username' and 
             password = '$password'";
 
-    //3. run the query
-    $result = mysqli_query($conn, $sql);
+        $result = mysqli_query($conn, $sql);
 
-    //4. show result
     if ($result->num_rows == 1) {
         echo "you have login ";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname"];
             echo $row["lastname"];
-            //start a session
             @session_start();
-            //set a session variable
             $_SESSION["userID"] = $row["id"];
             $_SESSION["firstname"] = $row["firstname"];
         }
