@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Include Exercise</title>
+    <title>Petz.co.nz</title>
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
