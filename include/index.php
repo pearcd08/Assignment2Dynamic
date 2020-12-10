@@ -21,10 +21,9 @@
     </div>
 
 
-    <div id = "index">
-        <?php include "login.php"; ?>
+    <div id = "menu">
         <?php include "menu.php"; ?>
-
+        <?php include "login.php"; ?>
     </div>
 <div id="main">
     <h1>Products of the Week</h1>

@@ -22,19 +22,18 @@ $result = mysqli_query($conn, $sql);
 
 //show result
     if ($result->num_rows == 1) {
-        echo "Logged in as ";
+        echo "you have login ";
         while ($row = $result->fetch_assoc()) {
-            echo $row["firstname"];
-            echo " ";
-            echo $row["lastname"];
+            echo $row["username"];
             //start a session
             @session_start();
             //set a session variable
             $_SESSION["userID"] = $row["id"];
             $_SESSION["firstname"] = $row["firstname"];
         }
-    } else if ($result->num_rows == 0){
+    } else {
        echo "wrong username or password";
+
 
 }
 
@@ -48,8 +47,7 @@ if (!isset($_SESSION["userID"])) {
 <?php
 }else{
 
-    echo '<a style="font-weight:bold" href="logout.php"><button>   Logout</a>';
-
+    echo '<a href="logout.php">logout</a>';
 
 }
 ?>
