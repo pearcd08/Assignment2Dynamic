@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Petz Homepage</title>
-    <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" >
+    <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css" >
     <script src="../js/script.js"></script>
 </head>
 
