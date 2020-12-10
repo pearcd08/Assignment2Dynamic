@@ -5,25 +5,29 @@ $username = $_POST["username"];
 $password = $_POST["password"];
 $address = $_POST["address"];
 $phone = $_POST["phone"];
+if ($firstname == "" || $lastname==""){
 
+    $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "clirofc82mncomex";
+    $dbpassword = "oliv570vcjycahnz";
+    $dbname = "pokmu5ifhldpc02f";
 
-//1. connect to database
-$server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dbusername = "clirofc82mncomex";
-$dbpassword = "oliv570vcjycahnz";
-$dbname = "pokmu5ifhldpc02f";
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
-
-//2. create a query to save user info
-$sql = "INSERT INTO 'users'('id','firstname','lastname','username','password','address','phone');
+//2. create a query
+    $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password`, `address`, `phoneNumber`) 
 VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone')";
 
-
-//3. run query
-if (mysqli_query($conn, $sql)) {
-    echo "data has been inserted";
-}else{
-    echo "<a href='../StaticWebsite/Homepage.html'>Home</a>";
+//3. run the query
+    if (mysqli_query($conn, $sql)){
+        echo "New User Registered";
+    }else{
+        echo "Please fill out the form";
+    }
 }
-;
+else{
+    echo "there should not be empty input";
+}
+
+
+echo "<a href='include/index.php'>Home</a>";
