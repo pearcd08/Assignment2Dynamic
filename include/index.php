@@ -17,14 +17,11 @@
 
 <img class="rotate_01" src="../images/yarn.png">
 
-
-
 <div id = "menu">
         <?php include "menu.php"; ?>
         <?php include "login.php"; ?>
+       </div>
 
-    </div>
-<?php include "register.php"; ?>
 <div id="main">
     <h1>Products of the Week</h1>
     <?php include "products.php" ;?>
