@@ -22,12 +22,6 @@
 
 
     <div id = "menu">
-        <ul>
-            <li><a href="Dog.html">Dog<</a></li>
-            <li><a href="Cat.html">Cat</a></li>
-            <li><a href="Bird.html">Bird</a></li>
-            <li><a href="Fish.html">Fish</a></li>
-        </ul>
         <?php include "menu.php";
         ?>
         <?php include "login.php";
