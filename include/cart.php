@@ -41,10 +41,10 @@ if (isset($_SESSION["userID"])){
 
 function createDatabaseConnection(){
     //1. connect to database
-    $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "clirofc82mncomex";
-    $dbpassword = "oliv570vcjycahnz";
-    $dbname = "pokmu5ifhldpc02f";
+    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "t8jnow42fmp1smpt";
+    $dbpassword = "fdavedw769oxw5pd";
+    $dbname = "k2nfay1osz1i59kc";
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
     return $conn;
@@ -72,11 +72,11 @@ function getProductNameByProductID($productID){
 }
 
 
-
- @name getProductPriceByProductID
- @param $productID
- @return product price
-
+/**
+ * @name getProductPriceByProductID
+ * @param $productID
+ * @return product price
+ */
 function getProductPriceByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
