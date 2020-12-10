@@ -2,18 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Include Exercise</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Petz Homepage</title>
+    <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" >
+    <script src="../js/script.js"></script>
 </head>
+
+
+
 <body>
-<div id="header">
-    <?php include "menu.php"; ?>
+<div id = "menu">
     <?php include "login.php"; ?>
-    <?php include "headerimage.php"; ?>
+    <?php include "menu.php"; ?>
+
 </div>
 <div id="main">
-    <h1>Products</h1>
-    <?php include "products.php" ;?>
+    <h1>Products of the Week</h1>
+    <?php include "products.php";?>
 </div>
-<div id="footer">contact information</div>
+<footer>
+    <p>
+        Petz Food Company, Auckland, New Zealand
+    </p></footer>
 </body>
+</html>
