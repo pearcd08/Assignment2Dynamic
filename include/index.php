@@ -22,8 +22,9 @@
 <div id = "menu">
         <?php include "menu.php"; ?>
         <?php include "login.php"; ?>
-        <?php include "register.php"; ?>
+
     </div>
+<?php include "register.php"; ?>
 <div id="main">
     <h1>Products of the Week</h1>
     <?php include "products.php" ;?>
