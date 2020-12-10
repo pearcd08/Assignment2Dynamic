@@ -5,6 +5,14 @@ body{
     background-color: lightskyblue; width:100%;  margin:auto;
 }
 
+h1{
+    alignment: center;
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    color: darkorange;
+
+}
+
 #header img{
     width: 100%;
     height: 300px;
