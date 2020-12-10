@@ -36,8 +36,8 @@ if (isset($_SESSION["userID"])){
 
     <?php
 }else{
-    echo "you need to login";
-    include "login.php";
+    echo "please login";
+
 
 }
 
