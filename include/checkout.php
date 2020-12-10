@@ -29,16 +29,11 @@ function createDatabaseConnection(){
     return $conn;
 }
 
-/**
- * @name getProductNameByProductID
- * @param $productID
- * @return product name
- */
 function getProductNameByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select name from products where id=$productID";
+    $sql = "select name from Products where id=$productID";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
@@ -50,17 +45,11 @@ function getProductNameByProductID($productID){
     return $name;
 }
 
-
-/**
- * @name getProductPriceByProductID
- * @param $productID
- * @return product price
- */
 function getProductPriceByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select price from products where id=$productID";
+    $sql = "select price from Products where id=$productID";
     //3. run query
     $result = mysqli_query($conn, $sql);
 
@@ -112,3 +101,5 @@ while ($i < sizeof($orderedProductIDs)){
 //clear my shopping cart
 $_SESSION["orderedProductIDs"] = [];
 $_SESSION["orderedProductQtys"] = [];
+
+?>

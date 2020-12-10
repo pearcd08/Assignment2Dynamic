@@ -8,8 +8,9 @@
 <body>
 <div id="menu">
     <?php include "menu.php"; ?>
-    <?php include "login.php"; ?>
     <?php include "headerImage.php"; ?>
+    <?php include "login.php"; ?>
+
 </div>
 <div id="menu">
     <h1>Products</h1>
