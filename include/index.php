@@ -16,7 +16,7 @@
     <?php include "login.php"; ?>
 </div>
 
-<div id="main">
+<div id="">
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
