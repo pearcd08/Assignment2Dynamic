@@ -12,7 +12,7 @@
 <body>
 
 <div id = "header">
-    <img src = "../images/Header1.jpg.jpg">
+    <img src = "../images/Header1.jpg">
 </div>
 
     <div>
