@@ -30,30 +30,23 @@ function createDatabaseConnection(){
 }
 
 function getProductNameByProductID($productID){
-    //1. create a db connection
-    $conn = createDatabaseConnection();
-    //2. query
-    $sql = "select name from Products where id=$productID";
+        $conn = createDatabaseConnection();
+        $sql = "select name from Products where id=$productID";
 
-    //3. run query
-    $result = mysqli_query($conn, $sql);
+        $result = mysqli_query($conn, $sql);
 
-    //4. show result
-    while ($row = $result->fetch_assoc()){
+        while ($row = $result->fetch_assoc()){
         $name = $row["name"];
     }
     return $name;
 }
 
 function getProductPriceByProductID($productID){
-    //1. create a db connection
     $conn = createDatabaseConnection();
-    //2. query
     $sql = "select price from Products where id=$productID";
-    //3. run query
     $result = mysqli_query($conn, $sql);
 
-    //4. show result
+
     while ($row=$result->fetch_assoc()){
         $price = $row["price"];
     }
@@ -66,30 +59,24 @@ date_default_timezone_set("Pacific/Auckland");
 $datetime = date("Y-m-d H:i:s");
 
 function createAnOrder($userID, $shippingAddress, $datetime){
-    //1 connection
     $conn = createDatabaseConnection();
-    //2 query
     $sql = "INSERT INTO `orders`(`orderNum`, `userID`, `shipAddress`, `orderdate`) 
             VALUES (NULL,$userID,'$shippingAddress','$datetime')";
     echo $sql;
-    //3 run query
     mysqli_query($conn, $sql);
-    //I need my orderID
     $orderID = mysqli_insert_id($conn);
     return $orderID;
 }
 
 function insertProductToOrderedTable($orderID, $productID, $qty){
-    //1 connection
     $conn = createDatabaseConnection();
-    //2 query
     $sql = "INSERT INTO `orderedProducts`(`orderedProductID`, `orderID`, `productID`, `qty`) 
             VALUES (NULL,$orderID,$productID,$qty)";
-    //3 run query
     mysqli_query($conn, $sql);
 }
 
-//create my order
+//ORDER CREATED
+
 $orderID = createAnOrder($userID, $shippingAddress, $datetime);
 $i = 0;
 while ($i < sizeof($orderedProductIDs)){
@@ -98,7 +85,9 @@ while ($i < sizeof($orderedProductIDs)){
     insertProductToOrderedTable($orderID, $productID, $qty);
     $i++;
 }
-//clear my shopping cart
+
+//EMPTY THE CART
+
 $_SESSION["orderedProductIDs"] = [];
 $_SESSION["orderedProductQtys"] = [];
 
