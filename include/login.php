@@ -25,7 +25,7 @@ $result = mysqli_query($conn, $sql);
 
 if (!isset($_SESSION["userID"])) {
 ?>
-    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+    <form id="loginform" action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
     <input name="username" type="text" placeholder="Username">
     <input name="password" type="password" placeholder="Password">
     <input type="submit" value="Post">

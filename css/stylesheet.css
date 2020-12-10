@@ -128,3 +128,7 @@ p {text-align: center;
     text-decoration: none;
     cursor: pointer;
 }
+
+#contact_form {
+    position: absolute;
+}
