@@ -54,13 +54,13 @@ function createDatabaseConnection(){
 /**
  * @name getProductNameByProductID
  * @param $productID
- * @return product name
+ * @return Product name
  */
 function getProductNameByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select name from products where id=$productID";
+    $sql = "select name from Products where id=$productID";
 
     //3. run query
     $result = mysqli_query($conn, $sql);
@@ -82,7 +82,7 @@ function getProductPriceByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();
     //2. query
-    $sql = "select price from products where id=$productID";
+    $sql = "select price from Products where id=$productID";
     //3. run query
     $result = mysqli_query($conn, $sql);
 

@@ -24,6 +24,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
         echo "you have login ";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname"];
+            echo $row["lastname"];
             //start a session
             @session_start();
             //set a session variable
