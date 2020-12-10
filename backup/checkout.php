@@ -19,7 +19,6 @@ while ($i<sizeof($orderedProductIDs)){
 echo "<p>Total: $total</p>";
 
 function createDatabaseConnection(){
-    //1. connect to database
     $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "clirofc82mncomex";
     $dbpassword = "oliv570vcjycahnz";

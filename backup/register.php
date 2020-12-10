@@ -6,7 +6,7 @@ $password = $_POST["password"];
 $address = $_POST["address"];
 $phone = $_POST["phone"];
 if ($firstname == "" || $lastname==""){
-    //1. connect to database
+
     $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "clirofc82mncomex";
     $dbpassword = "oliv570vcjycahnz";
@@ -20,9 +20,9 @@ VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone
 
 //3. run the query
     if (mysqli_query($conn, $sql)){
-        echo "data has been inserted";
+        echo "New User Registered";
     }else{
-        echo "data has not been inserted";
+        echo "Please fill out the form";
     }
 }
 else{
@@ -30,5 +30,4 @@ else{
 }
 
 
-echo "<a href='index.php'>Home</a>";
-?>
+echo "<a href='include/index.php'>Home</a>";

@@ -1,5 +1,5 @@
 <?php
-//1. connect to database
+
 $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $dbusername = "clirofc82mncomex";
 $dbpassword = "oliv570vcjycahnz";
@@ -7,8 +7,6 @@ $dbname = "pokmu5ifhldpc02f";
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-//2. create a query
-// take input from selected category;
 if (isset($_GET["category"])){
     echo "<h1>".$_GET["category"]."</h1>";
     $sql = "select * from Products where category = ".$_GET["category"];
@@ -17,10 +15,10 @@ if (isset($_GET["category"])){
 }
 
 
-//3. run the query on that connection
+
 $result = mysqli_query($conn,$sql);
 
-//4. show result
+
 while ($row = $result->fetch_assoc()){
     ?>
     <div>
@@ -29,7 +27,9 @@ while ($row = $result->fetch_assoc()){
         <p><img src="<?php echo $row["image"]; ?>"</p>
         <form action="addToCart.php" method="post">
             <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <input name="qty" type="number" placeholder="QTY" min="0">
+            <label>
+                <input name="qty" type="number" placeholder="QTY" min="0">
+            </label>
             <input type="submit" value="Add to cart">
         </form>
     </div>

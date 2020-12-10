@@ -14,8 +14,7 @@ while ($i<sizeof($orderedProductIDs)){
     $orderedProductQty = $orderedProductQtys[$i];
     $productName = getProductNameByProductID($orderedProductID);
     $price=getProductPriceByProductID($orderedProductID);
-    echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
-         Price: ".($price*$orderedProductQty)."</p>";
+    echo "<p>Name: " . $productName . "; Qty: " . $orderedProductQty . " Unit Price: " . $price . "         Price: " .($price*$orderedProductQty)."</p>";
     $total = $total + ($price*$orderedProductQty);
     $i++;
 }
@@ -25,26 +24,28 @@ echo "<p>Total: $total</p>";
 //}else{
 //
 //}
-
+echo "<p>Enter Delivery Address</p>";
 if (isset($_SESSION["userID"])){
     ?>
 
     <form action="checkout.php" method="post">
-        <textarea name="shippingAddress" rows="10" cols="50"></textarea>
+        <textarea name="shippingAddress" rows="5" cols="50"></textarea>
         <input type="submit" value="Check out">
     </form>
 
     <?php
 }else{
-    echo "you need to login";
+    echo "please login";
+
+
 }
 
 function createDatabaseConnection(){
     //1. connect to database
-    $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "clirofc82mncomex";
-    $dbpassword = "oliv570vcjycahnz";
-    $dbname = "pokmu5ifhldpc02f";
+    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "t8jnow42fmp1smpt";
+    $dbpassword = "fdavedw769oxw5pd";
+    $dbname = "k2nfay1osz1i59kc";
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
     return $conn;
