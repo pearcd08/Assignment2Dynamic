@@ -20,3 +20,5 @@ while ($row = $result->fetch_assoc()){
 <li></li>
 <?php
 }
+?>
+
