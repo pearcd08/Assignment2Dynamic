@@ -6,13 +6,17 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
+
+<div id="header">
+    <?php include "headerImage.php"; ?>
+</div>
+
 <div id="menu">
     <?php include "menu.php"; ?>
-    <?php include "headerImage.php"; ?>
     <?php include "login.php"; ?>
-
 </div>
-<div id="menu">
+
+<div id="main">
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
