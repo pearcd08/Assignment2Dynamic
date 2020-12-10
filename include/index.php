@@ -9,7 +9,7 @@
 <div id="header">
     <?php include "menu.php"; ?>
     <?php include "login.php"; ?>
-    <?php include "headerimage.php"; ?>
+    <?php include "headerImage.php"; ?>
 </div>
 <div id="main">
     <h1>Products</h1>
