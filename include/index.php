@@ -24,11 +24,14 @@
     <div id = "menu">
         <?php include "menu.php"; ?>
         <?php include "login.php"; ?>
-
     </div>
-</body>
+<div id="main">
+    <h1>Products of the Week</h1>
+    <?php include "products.php" ;?>
+</div>
 <footer>
     <p>
         Petz Food Company, Auckland, New Zealand
     </p></footer>
+</body>
 </html>
