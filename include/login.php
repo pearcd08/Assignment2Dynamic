@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $sql);
     if ($result->num_rows == 1) {
         echo "you have login as ";
         while ($row = $result->fetch_assoc()) {
-            echo $row["firstname"];
+            echo $row["firstname",""];
             echo $row["lastname"];
             //start a session
             @session_start();
@@ -32,7 +32,7 @@ $result = mysqli_query($conn, $sql);
             $_SESSION["userID"] = $row["id"];
             $_SESSION["firstname"] = $row["firstname"];
         }
-    } else {
+    } else if {
        echo "wrong username or password";
 
 }
