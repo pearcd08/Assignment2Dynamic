@@ -9,9 +9,9 @@ $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
 if (isset($_GET["category"])){
     echo "<h1>".$_GET["category"]."</h1>";
-    $sql = "select * from products where category = ".$_GET["category"];
+    $sql = "select * from Products where category = ".$_GET["category"];
 }else{
-    $sql = "select * from products";
+    $sql = "select * from Products";
 }
 
 
