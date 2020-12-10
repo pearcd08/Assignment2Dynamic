@@ -26,6 +26,7 @@
         ?>
         <?php include "login.php";
         ?>
+        <?php include "logout.php";
     </div>
 </body>
 <footer>
