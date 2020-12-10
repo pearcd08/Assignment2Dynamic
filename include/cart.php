@@ -37,6 +37,8 @@ if (isset($_SESSION["userID"])){
     <?php
 }else{
     echo "you need to login";
+    include "menu.php";
+
 }
 
 function createDatabaseConnection(){

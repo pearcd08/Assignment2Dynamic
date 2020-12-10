@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="update&#10;as" />
+    <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="update&#10;as">
+      <change beforePath="$PROJECT_DIR$/include/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/viewOrder.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/viewOrder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +100,7 @@
       <updated>1603793903822</updated>
       <workItem from="1603793904863" duration="29263000" />
       <workItem from="1607264414013" duration="3764000" />
-      <workItem from="1607268810900" duration="33263000" />
+      <workItem from="1607268810900" duration="34059000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607604945403</created>
@@ -120,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607605365023</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update&#10;as">
+      <created>1607605656413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607605656413</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

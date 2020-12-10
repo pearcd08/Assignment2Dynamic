@@ -3,10 +3,7 @@
 $userID = $_SESSION["userID"];
 function createDatabaseConnection(){
 //1. connect to database
-    $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-    $dbusername = "clirofc82mncomex";
-    $dbpassword = "oliv570vcjycahnz";
-    $dbname = "pokmu5ifhldpc02f";
+
 
 $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 return $conn;
