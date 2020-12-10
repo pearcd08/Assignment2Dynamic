@@ -15,7 +15,7 @@ while ($i<sizeof($orderedProductIDs)){
     $productName = getProductNameByProductID($orderedProductID);
     $price=getProductPriceByProductID($orderedProductID);
     echo "<p>Name: $productName Qty: $orderedProductQty Unit Price: $price
-         Price: ".($price*$orderedProductQty)."</p>";
+         Price: ".($price*$orderedProductQty)."<div></div></p>";
     $total = $total + ($price*$orderedProductQty);
     $i++;
 }
@@ -25,7 +25,7 @@ echo "<p>Total: $total</p>";
 //}else{
 //
 //}
-
+echo "<p>Enter Delivery Address</p>";
 if (isset($_SESSION["userID"])){
     ?>
 
