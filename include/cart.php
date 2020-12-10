@@ -72,11 +72,11 @@ function getProductNameByProductID($productID){
 }
 
 
-/**
- * @name getProductPriceByProductID
- * @param $productID
- * @return product price
- */
+
+ @name getProductPriceByProductID
+ @param $productID
+ @return product price
+
 function getProductPriceByProductID($productID){
     //1. create a db connection
     $conn = createDatabaseConnection();

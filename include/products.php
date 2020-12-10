@@ -1,37 +1,93 @@
 <?php
-//1. connect to database
-$server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dbusername = "clirofc82mncomex";
-$dbpassword = "oliv570vcjycahnz";
-$dbname = "pokmu5ifhldpc02f";
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+@session_start();
 
-$conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+$orderedProductIDs = $_SESSION["orderedProductIDs"];
+$orderedProductQtys = $_SESSION["orderedProductQtys"];
 
-//2. create a query
-// take input from selected category;
-if (isset($_GET["category"])){
-    echo "<h1>".$_GET["category"]."</h1>";
-    $sql = "select * from Products where category = ".$_GET["category"];
-}else{
-    $sql = "select * from Products";
+$i = 0;
+$total = 0;
+while ($i<sizeof($orderedProductIDs)){
+    $orderedProductID = $orderedProductIDs[$i];
+    $orderedProductQty = $orderedProductQtys[$i];
+    $productName = getProductNameByProductID($orderedProductID);
+    $price=getProductPriceByProductID($orderedProductID);
+    echo "<p>Name: " . $productName . "; Qty: " . $orderedProductQty . " Unit Price: " . $price . "         Price: " .($price*$orderedProductQty)."</p>";
+    $total = $total + ($price*$orderedProductQty);
+    $i++;
 }
-
-
-//3. run the query on that connection
-$result = mysqli_query($conn,$sql);
-
-//4. show result
-while ($row = $result->fetch_assoc()){
+echo "<p>Total: $total</p>";
+//if ($total > ???){
+//
+//}else{
+//
+//}
+echo "<p>Enter Delivery Address</p>";
+if (isset($_SESSION["userID"])){
     ?>
-    <div>
-        <p><?php echo $row["name"]; ?></p>
-        <p><?php echo $row["price"]; ?></p>
-        <p><img src="<?php echo $row["image"]; ?>"</p>
-        <form action="addToCart.php" method="post">
-            <input name="productID" value="<?php echo $row["id"]; ?>" type="hidden">
-            <input name="qty" type="number" placeholder="QTY" min="0">
-            <input type="submit" value="Add to cart">
-        </form>
-    </div>
+
+    <form action="checkout.php" method="post">
+        <textarea name="shippingAddress" rows="5" cols="50"></textarea>
+        <input type="submit" value="Check out">
+    </form>
+
     <?php
+}else{
+    echo "please login";
+
+
 }
+
+function createDatabaseConnection(){
+    //1. connect to database
+    $server = "klbcedmmqp7w17ik.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $dbusername = "t8jnow42fmp1smpt";
+    $dbpassword = "fdavedw769oxw5pd";
+    $dbname = "k2nfay1osz1i59kc";
+
+    $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
+    return $conn;
+}
+
+/**
+ * @name getProductNameByProductID
+ * @param $productID
+ * @return Product name
+ */
+function getProductNameByProductID($productID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
+    //2. query
+    $sql = "select name from Products where id=$productID";
+
+    //3. run query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    while ($row = $result->fetch_assoc()){
+        $name = $row["name"];
+    }
+    return $name;
+}
+
+
+/**
+ * @name getProductPriceByProductID
+ * @param $productID
+ * @return product price
+ */
+function getProductPriceByProductID($productID){
+    //1. create a db connection
+    $conn = createDatabaseConnection();
+    //2. query
+    $sql = "select price from Products where id=$productID";
+    //3. run query
+    $result = mysqli_query($conn, $sql);
+
+    //4. show result
+    while ($row=$result->fetch_assoc()){
+        $price = $row["price"];
+    }
+    return $price;
