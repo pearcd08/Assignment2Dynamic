@@ -42,8 +42,10 @@ if (!isset($_SESSION["userID"])) {
 ?>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
     <input name="username" type="text" placeholder="Username">
-    <input name="password" type="password" placeholder="Password">
-    <input type="submit" value="Login">
+        <label>
+            <input name="password" type="password" placeholder="Password">
+        </label>
+        <input type="submit" value="Login">
     </form>
     <div></div>
 <?php
