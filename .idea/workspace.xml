@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/include/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/cart.php" afterDir="false" />
-    </list>
+    <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="update&#10;as" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +97,7 @@
       <updated>1603793903822</updated>
       <workItem from="1603793904863" duration="29263000" />
       <workItem from="1607264414013" duration="3764000" />
-      <workItem from="1607268810900" duration="32919000" />
+      <workItem from="1607268810900" duration="33263000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607604945403</created>
@@ -115,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607605140098</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update&#10;as">
+      <created>1607605365023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607605365023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update&#10;as" />
+    <option name="LAST_COMMIT_MESSAGE" value="update&#10;as" />
   </component>
 </project>

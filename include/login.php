@@ -21,11 +21,24 @@ $sql = "select * from users
 $result = mysqli_query($conn, $sql);
 
 //show result
+    if ($result->num_rows == 1) {
+        echo "you have login ";
+        while ($row = $result->fetch_assoc()) {
+            echo $row["firstname"];
+            //start a session
+            @session_start();
+            //set a session variable
+            $_SESSION["userID"] = $row["id"];
+            $_SESSION["firstname"] = $row["firstname"];
+        }
+    } else {
+       echo "wrong username or password";
 
+}
 
 if (!isset($_SESSION["userID"])) {
 ?>
-    <formaction="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
+    <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
     <input name="username" type="text" placeholder="Username">
     <input name="password" type="password" placeholder="Password">
     <input type="submit" value="Post">
@@ -34,20 +47,6 @@ if (!isset($_SESSION["userID"])) {
 }else{
 
     echo '<a href="logout.php">logout</a>';
-
-}
-if ($result->num_rows == 1) {
-    echo "you have login ";
-    while ($row = $result->fetch_assoc()) {
-        echo $row["firstname"];
-        //start a session
-        @session_start();
-        //set a session variable
-        $_SESSION["userID"] = $row["id"];
-        $_SESSION["firstname"] = $row["firstname"];
-    }
-} else {
-    echo "wrong username or password";
 
 }
 ?>
