@@ -24,7 +24,7 @@
     <div id = "menu">
         <?php include "menu.php"; ?>
         <?php include "login.php"; ?>
-        <?php include "logout.php"; ?>
+
     </div>
 </body>
 <footer>
