@@ -24,7 +24,8 @@ $result = mysqli_query($conn, $sql);
     if ($result->num_rows == 1) {
         echo "you have login as ";
         while ($row = $result->fetch_assoc()) {
-            echo $row["firstname","lastname"];
+            echo $row["firstname"];
+            echo $row["lastname"];
             //start a session
             @session_start();
             //set a session variable
