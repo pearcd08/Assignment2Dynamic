@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-<div id="header">
+<div id="menu">
     <?php include "menu.php"; ?>
     <?php include "login.php"; ?>
     <?php include "headerImage.php"; ?>
 </div>
-<div id="main">
+<div id="menu">
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
