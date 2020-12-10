@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16fb297a-58dd-4ed0-b7d6-c7a38b291e0a" name="Default Changelist" comment="update&#10;as">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +99,7 @@
       <updated>1603793903822</updated>
       <workItem from="1603793904863" duration="29263000" />
       <workItem from="1607264414013" duration="3764000" />
-      <workItem from="1607268810900" duration="35052000" />
+      <workItem from="1607268810900" duration="38037000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1607604945403</created>
@@ -193,7 +192,133 @@
       <option name="project" value="LOCAL" />
       <updated>1607607261666</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update&#10;as">
+      <created>1607607449377</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607449377</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update&#10;as">
+      <created>1607607629923</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607629923</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update&#10;as">
+      <created>1607607648708</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607648708</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update&#10;as">
+      <created>1607607747405</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607607747405</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update&#10;as">
+      <created>1607608006252</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608006252</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update&#10;as">
+      <created>1607608236764</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608236764</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update&#10;as">
+      <created>1607608510725</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608510725</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update&#10;as">
+      <created>1607608655070</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608655070</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update&#10;as">
+      <created>1607608823868</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608823868</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update&#10;as">
+      <created>1607608923735</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607608923735</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update&#10;as">
+      <created>1607609114846</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609114846</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update&#10;as">
+      <created>1607609426497</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609426497</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update&#10;as">
+      <created>1607609481473</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609481473</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update&#10;as">
+      <created>1607609665730</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609665730</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update&#10;as">
+      <created>1607609761289</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609761289</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update&#10;as">
+      <created>1607610024246</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610024246</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update&#10;as">
+      <created>1607610101961</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610101961</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update&#10;as">
+      <created>1607610246732</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607610246732</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,5 +339,16 @@
     <MESSAGE value="update" />
     <MESSAGE value="update&#10;as" />
     <option name="LAST_COMMIT_MESSAGE" value="update&#10;as" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/include/cart.php</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
