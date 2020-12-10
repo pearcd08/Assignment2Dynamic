@@ -4,8 +4,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 @session_start();
 
-$orderedProductIDs = $_SESSION["orderedProductIDs"];
-$orderedProductQtys = $_SESSION["orderedProductQtys"];
+$orderedProductIDs = $_SESSION["orderedProductID"];
+$orderedProductQtys = $_SESSION["qty"];
 
 $i = 0;
 $total = 0;
