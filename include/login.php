@@ -33,8 +33,6 @@ $result = mysqli_query($conn, $sql);
         }
     } else {
        echo "wrong username or password";
-    }
-
 
 }
 
