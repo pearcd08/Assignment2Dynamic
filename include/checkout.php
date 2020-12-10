@@ -16,7 +16,7 @@ while ($i<sizeof($orderedProductIDs)){
     $total = $total + ($price*$orderedProductQty);
     $i++;
 }
-echo "<p>Total: $total</p>";
+echo "<p>Total Order Amount: $total</p>";
 
 function createDatabaseConnection(){
     //1. connect to database
@@ -40,6 +40,7 @@ function getProductNameByProductID($productID){
     }
     return $name;
 }
+
 
 function getProductPriceByProductID($productID){
     $conn = createDatabaseConnection();
