@@ -15,15 +15,14 @@
     <img src = "../images/Header1.jpg">
 </div>
 
-    <div>
-        <img class="rotate_01" src="../images/yarn.png">
-
-    </div>
+<img class="rotate_01" src="../images/yarn.png">
 
 
-    <div id = "menu">
+
+<div id = "menu">
         <?php include "menu.php"; ?>
         <?php include "login.php"; ?>
+        <?php include "register.php"; ?>
     </div>
 <div id="main">
     <h1>Products of the Week</h1>
