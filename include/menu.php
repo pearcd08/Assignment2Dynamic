@@ -13,6 +13,3 @@
     ?>
 </ul>
 
-<ul>
-    <?php include "category.php";?>
-</ul>

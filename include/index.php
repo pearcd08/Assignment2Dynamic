@@ -20,7 +20,9 @@
 </div>
 
 <div id="menu">
-     <?php include "category.php";?>
+    <ul>
+        <?php include "category.php";?>
+    </ul>
 </div>
 
 <div id ="register">
