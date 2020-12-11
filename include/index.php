@@ -15,7 +15,9 @@
     <?php include "headerImage.php"; ?>
 </div>
 
-
+<div>
+    <?php include "login.php"; ?>
+</div>
 
 <div id="menu">
     <ul>
