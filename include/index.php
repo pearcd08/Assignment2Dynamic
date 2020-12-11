@@ -11,6 +11,8 @@
     <?php include "menu.php"; ?>
 </div>
 
+<a href="registerForm.html">Register</a>
+
 <div id="header">
     <?php include "headerImage.php"; ?>
 </div>
@@ -29,6 +31,8 @@
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
+
+
 <div id="footer">Petz Food Company, Auckland, New Zealand</div>
 </body>
 </html>
