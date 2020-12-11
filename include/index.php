@@ -23,7 +23,7 @@
     <?php include "register"; ?>
 </div>
 
-<div id="">
+<div id="product">
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
