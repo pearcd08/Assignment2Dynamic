@@ -15,18 +15,15 @@
     <?php include "headerImage.php"; ?>
 </div>
 
-<div id ="login">
-    <?php include "login.php"; ?>
-</div>
+
 
 <div id="menu">
     <ul>
         <?php include "category.php";?>
     </ul>
 </div>
-
-<div id ="register">
-    <?php include "register.php"; ?>
+<div id ="login">
+    <?php include "login.php"; ?>
 </div>
 
 <div id="product">
