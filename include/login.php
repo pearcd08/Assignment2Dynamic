@@ -38,12 +38,12 @@ if (!isset($_SESSION["userID"])) {
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
         <input name="username" type="text" placeholder="Username">
         <input name="password" type="password" placeholder="Password">
-        <input type="submit" value="Post">
+        <input type="submit" value="Login">
     </form>
     <?php
 }else{
 
-    echo '<a href="logout.php">logout</a>';
+    echo '<a href="logout.php"><button>"logout"</button></a>';
 
 }
 ?>
