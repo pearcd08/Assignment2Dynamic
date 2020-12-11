@@ -7,8 +7,6 @@
 </head>
 <body>
 
-
-
 <div id="menu">
     <?php include "menu.php"; ?>
 </div>
@@ -21,14 +19,18 @@
     <?php include "login.php"; ?>
 </div>
 
+<div id="menu">
+     <?php include "category.php";?>
+</div>
+
 <div id ="register">
-    <?php include "register"; ?>
+    <?php include "register.php"; ?>
 </div>
 
 <div id="product">
     <h1>Products</h1>
     <?php include "products.php" ;?>
 </div>
-<div id="footer">contact information</div>
+<div id="footer">Petz Food Company, Auckland, New Zealand</div>
 </body>
 </html>
