@@ -3,6 +3,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
 
+
     $server = "s9xpbd61ok2i7drv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
     $dbusername = "clirofc82mncomex";
     $dbpassword = "oliv570vcjycahnz";
@@ -15,10 +16,12 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             where username = '$username' and 
             password = '$password'";
 
-        $result = mysqli_query($conn, $sql);
+
+    $result = mysqli_query($conn, $sql);
+
 
     if ($result->num_rows == 1) {
-        echo "You are logged in as ";
+        echo "you have login ";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname"];
             echo $row["lastname"];
@@ -27,7 +30,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             $_SESSION["firstname"] = $row["firstname"];
         }
     } else {
-        echo "Enter username and password";
+        echo "Enter valid username and password";
     }
 
 
@@ -36,14 +39,14 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
 if (!isset($_SESSION["userID"])) {
     ?>
     <form action="<?php $_SERVER["PHP_SELF"]; ?>" method="post">
-    <input name="username" type="text" placeholder="Username">
-    <input name="password" type="password" placeholder="Password">
-    <input type="submit" value="Login">
+        <input name="username" type="text" placeholder="Username">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Login">
     </form>
     <?php
 }else{
 
-    echo '<a href="logout.php"><button>"logout"</button></a>';
+    echo '<a href="logout.php">logout</a>';
 
 }
 ?>
