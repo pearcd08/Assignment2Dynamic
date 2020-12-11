@@ -13,7 +13,14 @@
 
 <div id="menu">
     <?php include "menu.php"; ?>
+</div>
+
+<div id ="login">
     <?php include "login.php"; ?>
+</div>
+
+<div id ="register">
+    <?php include "register"; ?>
 </div>
 
 <div id="">

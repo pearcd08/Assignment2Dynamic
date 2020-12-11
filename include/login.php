@@ -18,7 +18,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
         $result = mysqli_query($conn, $sql);
 
     if ($result->num_rows == 1) {
-        echo "you have login ";
+        echo "You are logged in as ";
         while ($row = $result->fetch_assoc()) {
             echo $row["firstname"];
             echo $row["lastname"];
@@ -27,7 +27,7 @@ if (isset($_POST["username"]) && isset($_POST["password"])) {
             $_SESSION["firstname"] = $row["firstname"];
         }
     } else {
-        echo "wrong username or password";
+        echo "Enter username and password";
     }
 
 
