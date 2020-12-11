@@ -74,17 +74,17 @@ h1{
 }
 
 
-.product{
-    width:200px;
-    height:300px;
+#product{
+    width:100px;
+    height:200px;
     display: inline-block;
     margin: 120px;
     border-style: solid;
 }
 
-.product img{
-    width:200px;
-    height:300px;
+#product img{
+    width:100px;
+    height:200px;
 }
 
 p {text-align: left;
