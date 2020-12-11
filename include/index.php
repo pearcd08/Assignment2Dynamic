@@ -22,9 +22,6 @@
         <?php include "category.php";?>
     </ul>
 </div>
-<div id ="login">
-    <?php include "login.php"; ?>
-</div>
 
 <div id="product">
     <h1>Products</h1>
