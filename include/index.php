@@ -7,12 +7,14 @@
 </head>
 <body>
 
-<div id="header">
-    <?php include "headerImage.php"; ?>
-</div>
+
 
 <div id="menu">
     <?php include "menu.php"; ?>
+</div>
+
+<div id="header">
+    <?php include "headerImage.php"; ?>
 </div>
 
 <div id ="login">

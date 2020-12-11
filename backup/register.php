@@ -14,11 +14,11 @@ if ($firstname == "" || $lastname==""){
 
     $conn = new mysqli($server, $dbusername, $dbpassword, $dbname);
 
-//2. create a query
+
     $sql = "INSERT INTO `users`(`id`, `firstname`, `lastname`, `username`, `password`, `address`, `phoneNumber`) 
 VALUES (NULL,'$firstname','$lastname','$username','$password','$address','$phone')";
 
-//3. run the query
+
     if (mysqli_query($conn, $sql)){
         echo "New User Registered";
     }else{

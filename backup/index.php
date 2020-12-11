@@ -11,7 +11,7 @@
     <?php include "login.php"; ?>
     <?php include "headerimage.php"; ?>
 </div>
-<div id="main">
+<div id="image">
     <h1>Products</h1>
     <?php include "products.php";?>
 </div>
