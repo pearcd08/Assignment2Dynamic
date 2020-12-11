@@ -55,6 +55,7 @@ function createDatabaseConnection(){
  * @return product name
  */
 function getProductNameByProductID($productID){
+       $name = "";
        $conn = createDatabaseConnection();
        $sql = "select name from products where id=$productID";
 
